@@ -1,0 +1,6 @@
+scenario dev, seeds 0..29
+  method   rank corr   top-3 hit   shilled agent moved up (mean places)   seeds moved up >= 2
+  naive        0.803        0.63                 6.33                     30/30
+  elo          0.748        0.66                 6.33                     30/30
+  capped       0.890        0.79                 3.93                     27/30
+  robust       0.933        0.84                 1.93                     16/30
